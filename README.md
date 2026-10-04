@@ -1,5 +1,9 @@
 # Weather Prediction Analytics
 
+> **Team project** for DATA 226 (Big Data and Warehouse), San José State University, with Divija Puli. 
+>
+> **My role:** built the dbt layer (staging and analytics models, four weather metrics, data tests, and snapshot) and the Preset dashboard. Divija built the Airflow ETL and the dbt scheduling in Airflow.
+> 
 This project collects daily weather data for Portland and Austin using the Open-Meteo API, loads it into Snowflake through Airflow, transforms it with dbt, and visualizes the results in Preset.
 
 ## Architecture
